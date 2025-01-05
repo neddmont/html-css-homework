@@ -1,0 +1,18 @@
+header{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+main {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+img {
+    width: 350px;
+    height: 250px;
+}
+footer {
+    font-size:smaller;
+    text-align: center;
+    margin-top:400px
+}

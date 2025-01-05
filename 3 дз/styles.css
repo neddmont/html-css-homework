@@ -1,0 +1,40 @@
+main{
+    display:flex;
+
+}
+#first {
+ background-color: antiquewhite;
+ text-align: center;
+ align-items: center;
+}
+#second {
+background-color: aquamarine;
+text-align: center;
+ align-items: center;
+}
+#third {
+background-color: beige;
+text-align: center;
+ align-items: center;
+}
+button {
+    cursor: pointer;
+    transition: background-color 0.3s , transform 0.3s;
+    padding: 10px 40px;
+    margin: 20px;
+}
+.button1:hover {
+    background-color: darkblue;
+}
+.button2:hover{
+    background-color: aquamarine;
+}
+.button3:hover {
+    background-color: beige;
+}
+img{
+    width: 400px;
+    height: 250px;
+    border: 20px solid black;
+    box-shadow: 12px 12px 2px 1px rgb(34,15,141)
+}
